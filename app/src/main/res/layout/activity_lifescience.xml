@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Lifescience">
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="311dp"
+        android:layout_height="226dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Department of Life Science currently has 13 students in the first year B.Sc.; 15 students in second year B.Sc. Department regularly conducted excursions like as Pimpla at Bhiwandi and another at Karnala and Alibagto study the flora and fauna, behavioral ecology, aquaculture techniques and lays emphasis on taxonomy and environmental protection. Regular class tests, assignments on current topics and syllabus topics are undertaken. Students’ requirements by way of teaching, learning and their difficulties are attended by the teaching staff. Mentor based Environmental Science Projects. "
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="318dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="276dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Annual Exhibition by students named Dr. A. P. J. Abdul Kalam Science and Social Science Exhibition is held in September 2015 to encourage the creativity of the students Staff are regularly participating in various co-curricular and competence enhancing activities both in college as well as outside. Faculty members’ role is more as a facilitator to the 'Learner'. Faculty members have easy access to all devices as well as applications for effective communication, e.g. Laptops, iPad, LCD and LED Projection systems, Micro-Image Projection and Capture system."
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView25"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.135" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="319dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Dr. Vivekkumar Patil       (Botony) Ms.Saleha Begum  Mr.Manish Sir  Lab Attendant- Amol Khadse"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.513"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+</android.support.constraint.ConstraintLayout>

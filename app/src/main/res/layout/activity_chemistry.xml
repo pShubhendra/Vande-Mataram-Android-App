@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Chemistry">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="313dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Department of chemistry currently has 20 students in the first year B. Sc.; 09 students in second year B.Sc. 07 in Third year B.Sc. Regular class tests, assignments on current topics and syllabus topics are undertaken. Students’ requirements by way of teaching, learning and their difficulties are attended by the teaching staff. Annual Exhibition by students named Dr. A. P. J. Abdul Kalam Science and Social Science Exhibition is held in September 2015 to encourage the creativity of the students."
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="307dp"
+        android:layout_height="189dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="Staff are regularly participating in various co-curricular and competence enhancing activities both in college as well as outside. Faculty members’ role is more as a facilitator to the 'Learner'. Faculty members have easy access to all devices as well as applications for effective communication, eg. Laptops, Micro-Image Projection and use of projectors.Professors are - Mrs. Amarita Singh (HOD) Mrs. Pooja Shingadia  Mrs.Rakhi Lade  Vitthal Kolhe   Lab Assistant Amol Khadse"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="194dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="12dp"
+        android:text="We observe and record as objectively as possible, avoiding personal bias by removing ourselves.  Using the passive voice also clarifies procedures and descriptions so they can be easily reproduced and compared.  We have organised external practical for third year chemistry in Oct 2019. Invited external examiner Dr. Parbhat from Wilson College and professor Ms.Savita from Mutha College."
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toTopOf="@+id/textView20"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView19" />
+</android.support.constraint.ConstraintLayout>

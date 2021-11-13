@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".Arts">
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="331dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="After completion of graduation in Arts, students can do M.A in subjects like Economics, History, English Literature etc. and can become the influential teachers of that subject and impart the knowledge of that subject to the future potential students. They can do in-depth research in different topics of the same subject which may be helpful for them to do Ph.D. for their future enhancement.  Students of Economics subject may try in the fields like banking, insurance, stock markets, mutual funds and any financial institutions.Students of History subject may try in the fields like Indian Administration(IAS,IPS etc.)and further they can try for UPSC, MPSC exams for availing government jobs. "
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.144" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="322dp"
+        android:layout_height="171dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="212dp"
+        android:text="Students of English Literature may have good opportunities in the field of journalism,mass and media various global career opportunities.By the end of this Academic year that is 2018-19 our fourth Arts batch will get pass out.In order to cater the needs of students, faculty members are and will always strive hard to boost up and groom them for their better future."
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

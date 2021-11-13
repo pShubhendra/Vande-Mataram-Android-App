@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back3"
+    tools:context=".CSandIT">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="323dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="This is the Nineth year of Computer Science and Information Technology Department Since the establishment of our institution.  Utmost care has been taken the CS and IT Department under the watchful eye and guidance of our Hon. President and Principal Dr. Rajkumar Kolhe Sir to satisfy all the requirements of the students. Timely tutorials and assignment work will be conducted to give adequate practice to the students to cope with the exam environment and this will give them confidence to appear for the exam."
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.052" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="319dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="From this year we used the E-Class concept and taught few subject through the topic wise PowerPoint presentation.  There has been steady growth in the performance of the students in curricular as well as extra-curricular activities. All of us made possible efforts to achieve cent percent result. The students are taught as per the syllabus of University of Mumbai and all practical’s are conducted with utmost care."
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="We are thankful to Hon.  President and Principal  Dr. Rajkumar Kolhe Sir, whose co-operation, support and guidance are extremely mentionable in the context. I  also thankful to Mr. Kewal A. Tandulkar for their maintenance of hardware / software and  valuable co-operation for the academic year 2018-19. Mrs.Mamta Panda Mrs.Vanita Lokhande  Mrs.Manjula Dhawale  Mrs.Bharati Gaikar  Mrs.Rajkumari Bande  Mr.Riaz Khan Mr.Sushil sharma Lab Incharge -Mr.Kewal A.Tandulkar"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18"
+        app:layout_constraintVertical_bias="0.329" />
+</android.support.constraint.ConstraintLayout>
